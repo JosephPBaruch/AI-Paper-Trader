@@ -10,3 +10,6 @@ source bin/activate
 pip install django djangorestframework django-cors-headers
 django-admin startproject core
 python manage.py migrate
+
+python manage.py makemigrations <!-- Run the backend-->
+python manage.py runserver
