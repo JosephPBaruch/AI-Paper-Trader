@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-function App() {
+function Display() {
 
     const [ invest, setInvest ] = useState({
         value: "What do you want to invest in?"
@@ -24,7 +24,7 @@ function App() {
 
     return (
         <>
-            <h1>Hot Stock</h1>
+            <h1>Lets see</h1>
             <div style={{height: "30px"}}>
                 <input style={{height: "100%", width: "300px"}} value ={invest.value} onChange={setInvest} ></input> 
                 <button style={{height: "100%"}} onClick={setButton}>Go</button>
@@ -34,4 +34,4 @@ function App() {
   )
 }
 
-export default App
+export default Display
