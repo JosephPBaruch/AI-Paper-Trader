@@ -5,11 +5,5 @@ import Display from './Display.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  //<React.StrictMode>
     <App />
-  //</React.StrictMode>,
-)
-
-document.get('/display').render(
-    <Display />
 )
