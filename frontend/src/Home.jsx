@@ -24,7 +24,7 @@ function Home() {
                
                <button onClick={handleClick}>Go</button> 
             </div>
-            <footer><p>By Joseph Baruch</p></footer>
+            <footer><p>By Joseph Baruch yuuuh</p></footer>
         </>
   )
 }
