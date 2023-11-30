@@ -1,5 +1,9 @@
 import { useState, useEffect } from 'react'
-
+/* display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0; */
 function Display() {
 
     const [ invest, setInvest ] = useState({
