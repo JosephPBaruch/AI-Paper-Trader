@@ -16,8 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from .views import my_get_handler
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('api/', include('core.api.urls'))
+    path('api/', include('core.api.urls')),
+    path('my_endpoint/<str:param1>/<str:param2>/', my_get_handler)
 ]
