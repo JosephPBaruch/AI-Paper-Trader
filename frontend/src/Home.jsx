@@ -41,8 +41,9 @@ function Comp({classes}){
         <div className={classes.center}>
             <h1>Hot Stock</h1>
             <div id="center" className={classes.link}>
-                <input style={{height: "100%", width: "300px"}} value ={invest.value} onChange={setInvest} ></input> 
-               <button onClick={handleClick}>Go</button> 
+                <input id="jeff" style={{height: "100%", width: "300px"}} value ={invest.value} onChange={setInvest} ></input> 
+                <p id="p" >hola</p>
+               <button id="butt" onClick={handleClick}>Go</button> 
             </div>
             <footer><p>By Joseph Baruch</p></footer>
         </div>
